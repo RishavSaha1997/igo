@@ -1,0 +1,14 @@
+@media (max-width: 575.98px){
+    #banner h1{
+        margin-top: 15px;
+        
+    }
+    #banner img{
+        height: 36vh;
+    }
+
+    #aboutUs img{
+        margin-top: 10px;
+        height: 50vh;
+    }
+}
