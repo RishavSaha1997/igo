@@ -3,12 +3,66 @@
         margin-top: 15px;
         
     }
-    #banner img{
+    #banner .leftBlock{
+        margin-top: 15px;
+    }
+    #banner .rightBlock img{
+        margin-top: 35px;
         height: 36vh;
+        width: 100%;
     }
 
     #aboutUs img{
-        margin-top: 10px;
+        margin-top: 30px;
         height: 50vh;
+        width: 100%;
     }
+    #aboutUs .rightBlock{
+        margin-top: 30px;
+    }
+    #aboutUs .rightBlock p{
+        padding-right: 0;
+
+    }
+    #services .captain{
+        flex-direction: column;
+    }
+    #services .leftBlock{
+        margin-bottom: 20px;
+    }
+    #services .centerBlock{
+        margin-bottom: 20px;
+    }
+    #services .leftBlock1{
+        margin-bottom: 20px;
+    }
+
+    #services{
+        margin-top: 100px;
+    }
+    #business .leftBlock{
+        margin-top: 35px;
+    }
+    #business .rightBlock img{
+        height: 36vh;
+    }
+    #business .leftBlock p{
+        text-align: left;
+    }
+    #download .leftBlock img{
+        margin-top: 55px;
+        height: 42vh;
+    }
+    #download .rightBlock {
+        margin-top: 20px;
+    }
+    #download .rightBlock h1 {
+        padding-left: 0px;
+        line-height: 40px;
+    }
+    #download .rightBlock img {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+
 }

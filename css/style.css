@@ -15,19 +15,167 @@
 .logo img{
     width: 75%;
 }
-.btn{
+.navbar .btn{
     border-radius: 30px;
     padding: 6px 30px;
 }
 
-#banner h1{
-    margin-top: 50px;
+/* Banner Section */
+#banner .leftBlock{
+    margin-top: 75px;
 }
-#banner img{
+#banner .leftBlock h1{
+    font-weight: 500;
+}
+#banner .leftBlock p{
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 35px;
+}
+#banner .button{
+    margin-top: 30px;
+}
+.button .download{
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    background: #6ECC02;
+    color: white;
+}
+.button .sign-up{
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    background: black;
+    color: white;
+    margin-left: 5px
+}
+#banner .rightBlock img{
     height: 80vh ;
 }
+/* End Banner Section */
 
+/* About Us */
 #aboutUs img{
     height: 100vh ;
 }
+#aboutUs .btn{
+    border-radius: 30px;
+    padding: 10px 35px;
+    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+}
+#aboutUs .rightBlock{
+    margin-top: 125px;
+}
+#aboutUs .rightBlock h2{
+    font-weight: 600;
+}
+#aboutUs .rightBlock p{
+    margin-top: 25px;
+    padding-right: 75px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#aboutUs .more{
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    background: #6ECC02;
+    color: white;
+}
 
+/* End About Us Section */
+
+#services{
+    margin-top: 35px;
+}
+#services h2{
+    font-weight: 600;
+}
+#services h4{
+    margin-top: 30px;
+    font-weight: 500;
+}
+#services h5{
+    margin-top: 35px;
+    font-weight: 600;
+}
+#services .leftBlock{
+    text-align: center;
+}
+#services .centerBlock{
+    text-align: center;
+}
+#services .rightBlock{
+    text-align: center;
+}
+#services img{
+    height: 150px;
+}
+#services p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+#services .captain{
+    display: flex;
+    justify-content: center;
+}
+#services .leftBlock1{
+    text-align: center;
+}
+#services .rightBlock1{
+    text-align: center;
+}
+#services .leftBlock1 p{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#services .rightBlock1 p{   
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+#business{
+    margin-top: 35px;
+}
+#business .leftBlock{
+    margin-top: 175px;
+}
+#business .leftBlock h2{
+    font-weight: 600;
+}
+#business .leftBlock p{
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px;
+}
+#business .rightBlock img{
+    height: 83vh;
+}
+
+#download .leftBlock img{
+    height: 100vh;
+}
+#download .rightBlock{
+    margin-top: 195px;
+}
+#download .rightBlock h1{
+    padding-left: 50px;
+    line-height: 55px;
+}
+#download .rightBlock img{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+/* footer Section */
+.footer{
+    width: 100%;
+    background: black;
+    color: white;
+}
+#footer-text a{
+    text-decoration: none;
+}
