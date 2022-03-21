@@ -7,7 +7,7 @@
         margin-top: 15px;
     }
     #banner .rightBlock img{
-        margin-top: 35px;
+        /* margin-top: 35px; */
         height: 36vh;
         width: 100%;
     }
@@ -45,6 +45,7 @@
     }
     #business .rightBlock img{
         height: 36vh;
+        width: 100%;
     }
     #business .leftBlock p{
         text-align: left;
@@ -52,6 +53,7 @@
     #download .leftBlock img{
         margin-top: 55px;
         height: 42vh;
+        width: 100%;
     }
     #download .rightBlock {
         margin-top: 20px;
