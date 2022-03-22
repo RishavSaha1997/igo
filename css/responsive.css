@@ -12,6 +12,7 @@
     }
     #banner .leftBlock p {
         font-size: 16px;
+        text-align: justify;
     }
     #banner .rightBlock img{
         /* margin-top: 35px; */
