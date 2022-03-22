@@ -55,7 +55,7 @@
 }
 #banner .rightBlock img{
     height: 80vh;
-    width: auto;
+    width: 120%;
 }
 /* End Banner Section */
 
@@ -167,6 +167,7 @@
 }
 #business .rightBlock img{
     height: 83vh;
+    width: 120%;
 }
 /* end business section */
 
