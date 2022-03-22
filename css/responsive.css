@@ -16,7 +16,7 @@
     #banner .rightBlock img{
         /* margin-top: 35px; */
         height: 36vh;
-        width: 100%;
+        width: 102%;
     }
 
     #aboutUs img{
@@ -45,6 +45,14 @@
         margin-bottom: 20px;
     }
 
+    #services .leftBlock1 p{
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    #services .rightBlock1 p{   
+        padding-right: 1px;
+        padding-left: 1px;
+    }
     #services{
         margin-top: 100px;
     }
@@ -62,7 +70,7 @@
     }
     #business .rightBlock img{
         height: 36vh;
-        width: 100%;
+        width: 102%;
     }
     #business .leftBlock p{
         text-align: left;
