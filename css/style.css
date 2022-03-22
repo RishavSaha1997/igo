@@ -51,13 +51,15 @@
     margin-left: 5px
 }
 #banner .rightBlock img{
-    height: 80vh ;
+    height: 80vh;
+    width: auto;
 }
 /* End Banner Section */
 
 /* About Us */
 #aboutUs img{
     height: 100vh ;
+    width: auto;
 }
 #aboutUs .btn{
     border-radius: 30px;
@@ -86,6 +88,8 @@
 
 /* End About Us Section */
 
+
+/* Service section */
 #services{
     margin-top: 35px;
 }
@@ -135,8 +139,10 @@
     padding-right: 50px;
     padding-left: 50px;
 }
+/* end service section */
 
 
+/* business section */
 #business{
     margin-top: 35px;
 }
@@ -155,6 +161,7 @@
 #business .rightBlock img{
     height: 83vh;
 }
+/* end business section */
 
 #download .leftBlock img{
     height: 100vh;
@@ -176,6 +183,40 @@
     background: black;
     color: white;
 }
+#footer .leftBox, .centerBox1, .centerBox2, .rightBox{
+    margin-top: 35px;
+}
+#footer .leftBox, .centerBox1, .centerBox2 p{
+    font-size: 14px;
+}
+#footer .centerBox1{
+    padding-left: 75px;
+}
+#footer .leftBox img{
+    height: 40px;
+    margin-left: 35px;
+}
+
+#footer-text p{
+    font-size: 13px;
+}
 #footer-text a{
     text-decoration: none;
+}
+
+#footer .rightBox .social-links i{
+    font-size: 20px;
+    color: white;
+}
+#footer .rightBox form input{
+    width: 175px;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 13px;
+}
+#footer .rightBox form .btn{
+    height: 35px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 5px;
 }
