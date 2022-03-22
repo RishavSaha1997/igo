@@ -6,6 +6,13 @@
     #banner .leftBlock{
         margin-top: 15px;
     }
+    #banner .leftBlock h1 {
+        font-weight: 600;
+        font-size: 23px;
+    }
+    #banner .leftBlock p {
+        font-size: 16px;
+    }
     #banner .rightBlock img{
         /* margin-top: 35px; */
         height: 36vh;
@@ -22,6 +29,7 @@
     }
     #aboutUs .rightBlock p{
         padding-right: 0;
+        font-size: 16px;
 
     }
     #services .captain{
@@ -40,6 +48,15 @@
     #services{
         margin-top: 100px;
     }
+    /* #services h4::after {
+        position: absolute;
+        top: 30px;
+        left: 105px;
+        content: "";
+        height: 2px;
+        width: 180px;
+        background-color: #0f892c;
+    } */
     #business .leftBlock{
         margin-top: 35px;
     }
@@ -49,6 +66,7 @@
     }
     #business .leftBlock p{
         text-align: left;
+        font-size: 16px;
     }
     #download .leftBlock img{
         margin-top: 75px;
@@ -69,6 +87,9 @@
     }
     #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
         margin-top: 10px;
+    }
+    #footer .leftBox, .centerBox1, .centerBox2 p{
+        font-size: 12px;
     }
     #footer .leftBox{
         padding-top: 15px;

@@ -73,12 +73,15 @@
     font-weight: 600;
 }
 #aboutUs .rightBlock p{
-    margin-top: 25px;
     padding-right: 75px;
     font-size: 18px;
     line-height: 30px;
 }
+#aboutUs .rightBlock .about-text{
+    margin-top: 25px;
+}
 #aboutUs .more{
+    margin-top: 15px;
     border-radius: 30px;
     padding: 10px 20px;
     box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
@@ -99,6 +102,7 @@
 #services h4{
     margin-top: 30px;
     font-weight: 500;
+    text-decoration: underline;
 }
 #services h5{
     margin-top: 35px;
