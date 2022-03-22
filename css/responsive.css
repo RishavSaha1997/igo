@@ -33,7 +33,7 @@
     #aboutUs .rightBlock p{
         padding-right: 0;
         font-size: 16px;
-
+        text-align: justify;
     }
     #services .captain{
         flex-direction: column;
