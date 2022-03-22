@@ -41,17 +41,17 @@
 .button .download{
     border-radius: 30px;
     padding: 10px 20px;
-    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
     background: #6ECC02;
     color: white;
 }
 .button .sign-up{
     border-radius: 30px;
     padding: 10px 15px;
-    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
     background: black;
     color: white;
-    margin-left: 5px
+    margin-left: 10px
 }
 #banner .rightBlock img{
     height: 80vh;
@@ -63,11 +63,6 @@
 #aboutUs img{
     height: 100vh ;
     width: auto;
-}
-#aboutUs .btn{
-    border-radius: 30px;
-    padding: 10px 35px;
-    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
 }
 #aboutUs .rightBlock{
     margin-top: 125px;
@@ -87,7 +82,7 @@
     margin-top: 15px;
     border-radius: 30px;
     padding: 10px 20px;
-    box-shadow: 10px 5px 24px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
     background: #6ECC02;
     color: white;
 }
