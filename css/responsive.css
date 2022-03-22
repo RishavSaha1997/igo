@@ -24,6 +24,7 @@
         margin-top: 85px;
         height: 50vh;
         width: 100%;
+        margin-left: -12px;
     }
     #aboutUs .rightBlock{
         margin-top: 30px;
@@ -81,6 +82,7 @@
         margin-top: 75px;
         height: 42vh;
         width: 100%;
+        margin-left: -12px;
     }
     #download .rightBlock {
         margin-top: 20px;
