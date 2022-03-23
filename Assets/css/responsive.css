@@ -136,7 +136,7 @@
     #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
         margin-top: 0px;
     }
-    .centerBox1, .centerBox2{
+    .centerBox1{
         margin-top: 12px;
     }
     #footer .centerBox1, .centerBox2 p{
