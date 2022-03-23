@@ -41,8 +41,8 @@
     position: absolute;
     background: #6ECC02;
     height: 3px;
-    width: 12%;
-    left: 44%;
+    width: 8%;
+    left: 46%;
     
 }
 /* Banner Section */
@@ -232,10 +232,11 @@
 }
 #footer-text a{
     text-decoration: none;
+    color: #6ECC02;
 }
 
 #footer .rightBox .social-links i{
-    font-size: 20px;
+    font-size: 24px;
     color: white;
 }
 #footer .rightBox form input{
@@ -249,4 +250,8 @@
     background: white;
     border-radius: 10px;
     margin-left: 5px;
+}
+h5{
+    font-weight: 600;
+    letter-spacing: 1px;
 }
