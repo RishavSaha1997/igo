@@ -22,7 +22,8 @@
 }
 .bg-white{
     background-color: white;
-    /* box-shadow: 0px 10px 30px rgba(0,0,0,0.1); */
+    box-shadow: 0px -5px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
 .logo img{
@@ -32,8 +33,7 @@
     border-radius: 30px;
     padding: 6px 30px;
 }
-#navbarNav ul li a{
-    color:black;
+#navbarNav ul li {
     font-size:16px;
     font-weight: 500;
 }
@@ -42,12 +42,15 @@
     background: #6ECC02;
     height: 3px;
     width: 8%;
-    left: 46%;
-    
+    left: 46%; 
+}
+.nav-item .btn a{
+    color: white;
+    text-decoration: none;
 }
 /* Banner Section */
 #banner{
-    margin-top: 100px;
+    margin-top: 95px;
 }
 #banner .leftBlock{
     margin-top: 115px;
@@ -239,6 +242,12 @@
 #footer .rightBox .social-links i{
     font-size: 24px;
     color: white;
+}
+.social-links a i{
+    transition: all 0.5s ease;
+}
+.social-links a i:hover{
+    transform: scale(1.2);
 }
 #footer .rightBox form input{
     width: 175px;
