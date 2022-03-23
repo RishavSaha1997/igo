@@ -16,16 +16,22 @@
     #banner .leftBlock h1 {
         font-weight: 600;
         font-size: 23px;
+        padding-left: 5px;
     }
     #banner .leftBlock p {
         font-size: 16px;
         text-align: justify;
         line-height: normal;
+        padding-left: 5px;
+        padding-right: 30px;
     }
     #banner .rightBlock img{
         /* margin-top: 35px; */
         height: 36vh;
         width: 102%;
+    }
+    #banner .button {
+        padding-left: 5px;
     }
 
     #aboutUs img{
@@ -37,10 +43,15 @@
     #aboutUs .rightBlock{
         margin-top: 30px;
     }
+    #aboutUs .rightBlock h2 {
+        padding-left: 5px;
+    }
     #aboutUs .rightBlock p{
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 30px;
         font-size: 16px;
         text-align: justify;
+        line-height: normal;
     }
     #services .captain{
         flex-direction: column;
@@ -53,9 +64,11 @@
     }
     #services .leftBlock1{
         margin-bottom: 20px;
+        padding-right: 0px;
     }
     #services .rightBlock1 {
         margin-top: 20px;
+        padding-left: 0px;
     }
     #services .leftBlock1 p{
         padding-right: 1px;
@@ -84,9 +97,18 @@
         height: 36vh;
         width: 102%;
     }
+    .business-main{
+        margin-top: 25px;
+    }
+    #business .leftBlock h2 {
+        padding-left: 5px;
+    }
     #business .leftBlock p{
-        text-align: justify;
+        /* text-align: justify; */
         font-size: 16px;
+        padding-right: 27px;
+        padding-left: 5px;
+        line-height: normal;
     }
     #download .leftBlock img{
         margin-top: 75px;

@@ -145,7 +145,7 @@
 }
 #services p{
     font-size: 14px;
-    text-align: justify;
+    text-align: center;
     padding: 5px;
 }
 #services .captain{
@@ -155,19 +155,21 @@
 #services .leftBlock1{
     margin-top: 45px;
     text-align: center;
+    padding-right: 30px;
 }
 #services .rightBlock1{
     margin-top: 45px;
     text-align: center;
+    padding-left: 30px;
 }
-#services .leftBlock1 p{
+/* #services .leftBlock1 p{
     padding-right: 50px;
     padding-left: 50px;
 }
 #services .rightBlock1 p{   
     padding-right: 50px;
     padding-left: 50px;
-}
+} */
 /* end service section */
 
 
@@ -182,8 +184,7 @@
     font-weight: 600;
 }
 #business .leftBlock p{
-    margin-top: 25px;
-    text-align: justify;
+    /* margin-top: 25px; */
     font-size: 17px;
     line-height: 30px;
 }
