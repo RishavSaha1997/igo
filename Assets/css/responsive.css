@@ -1,4 +1,11 @@
 @media (max-width: 575.98px){
+    .separator {
+        width: 41%;
+        left: 30%;
+    }
+    .navbar .btn {
+        display: none;
+    }
     #banner h1{
         margin-top: 15px;
         
@@ -47,7 +54,9 @@
     #services .leftBlock1{
         margin-bottom: 20px;
     }
-
+    #services .rightBlock1 {
+        margin-top: 20px;
+    }
     #services .leftBlock1 p{
         padding-right: 1px;
         padding-left: 1px;
@@ -76,7 +85,7 @@
         width: 102%;
     }
     #business .leftBlock p{
-        text-align: left;
+        text-align: justify;
         font-size: 16px;
     }
     #download .leftBlock img{
@@ -98,7 +107,7 @@
         height: 50px;
     }
     #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
-        margin-top: 10px;
+        margin-top: 0px;
     }
     #footer .leftBox, .centerBox1, .centerBox2 p{
         font-size: 12px;
@@ -107,10 +116,65 @@
         padding-top: 15px;
     }
     #footer .leftBox img {
+        height: 35px;
         margin-left: 0px;
     }
     #footer .centerBox1 {
         padding-left: 10px;
     }
+    #footer-text p {
+        text-align: center;
+    }
+    #footer .rightBox form input{
+        width: 200px;
+    }
+}
 
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    /* #banner .leftBlock {
+        margin-top: 0px;
+    }
+    #banner .rightBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: 30px;
+    }
+    #aboutUs img {
+        height: auto;
+        width: 100%;
+    }
+    #aboutUs .rightBlock {
+        margin-top: 0px;
+    }
+    #aboutUs .rightBlock p {
+        padding-right: 10px;
+        font-size: 16px;
+        line-height: normal;
+        text-align: justify;
+    }
+    #business .leftBlock {
+        margin-top: 0px;
+    }
+    #business .rightBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: 30px;
+    }
+    #download{
+        margin-top: 15px;
+    }
+    #download .leftBlock img {
+        height: auto;
+        width: 100%;
+        margin-left: -11px;
+    }
+    #download .rightBlock {
+        margin-top: 0px;
+    }
+    #download .rightBlock h1 {
+        padding-left: 0px;
+        line-height: normal;
+        font-size: 32px;
+    } */
 }

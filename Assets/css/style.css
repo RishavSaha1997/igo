@@ -11,28 +11,54 @@
 .navbar .navbar-collapse .navbar-nav .nav-item{
     margin: 0 10px;
 }
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
 .navbar-toggler:focus {
     box-shadow: none;
 }
+.bg-white{
+    background-color: white;
+    /* box-shadow: 0px 10px 30px rgba(0,0,0,0.1); */
+}
 
 .logo img{
-    width: 75%;
+    width: 70%;
 }
 .navbar .btn{
     border-radius: 30px;
     padding: 6px 30px;
 }
-
+#navbarNav ul li a{
+    color:black;
+    font-size:16px;
+    font-weight: 500;
+}
+.separator{
+    position: absolute;
+    background: #6ECC02;
+    height: 3px;
+    width: 12%;
+    left: 44%;
+    
+}
 /* Banner Section */
+#banner{
+    margin-top: 100px;
+}
 #banner .leftBlock{
-    margin-top: 75px;
+    margin-top: 115px;
 }
 #banner .leftBlock h1{
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 600;
 }
 #banner .leftBlock p{
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 35px;
 }
 #banner .button{
@@ -55,14 +81,14 @@
 }
 #banner .rightBlock img{
     height: 80vh;
-    width: 120%;
+    width: 119%;
 }
 /* End Banner Section */
 
 /* About Us */
 #aboutUs img{
     height: 100vh ;
-    width: auto;
+    width: 90%;
 }
 #aboutUs .rightBlock{
     margin-top: 125px;
@@ -72,7 +98,7 @@
 }
 #aboutUs .rightBlock p{
     padding-right: 75px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 #aboutUs .rightBlock .about-text{
@@ -100,7 +126,6 @@
 #services h4{
     margin-top: 30px;
     font-weight: 500;
-    text-decoration: underline;
 }
 #services h5{
     margin-top: 35px;
@@ -128,9 +153,11 @@
     justify-content: center;
 }
 #services .leftBlock1{
+    margin-top: 45px;
     text-align: center;
 }
 #services .rightBlock1{
+    margin-top: 45px;
     text-align: center;
 }
 #services .leftBlock1 p{
@@ -162,7 +189,7 @@
 }
 #business .rightBlock img{
     height: 83vh;
-    width: 120%;
+    width: 119%;
 }
 /* end business section */
 
