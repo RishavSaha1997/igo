@@ -114,16 +114,18 @@
         line-height: normal;
     }
     #download .leftBlock img{
-        margin-top: 75px;
+        /* margin-top: 75px; */
         height: 42vh;
         width: 100%;
         margin-left: -12px;
     }
     #download .rightBlock {
-        margin-top: 20px;
+        margin-top: 75px;
     }
     #download .rightBlock h1 {
+        font-size: 32px;
         padding-left: 0px;
+        margin-top: 15px;
         line-height: 40px;
     }
     #download .rightBlock img {
@@ -150,7 +152,8 @@
     #footer .centerBox1 {
         padding-left: 10px;
     }
-    #footer-text p {
+    #footer-text p{
+        font-size: 12px;
         text-align: center;
     }
     #footer .rightBox form input{

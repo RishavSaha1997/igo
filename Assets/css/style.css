@@ -221,7 +221,7 @@
     margin-top: 35px;
 }
 #footer .centerBox1, .centerBox2 p{
-    font-size: 14px;
+    font-size: 13px;
 }
 .leftBox p{
     font-size: 12px;
@@ -235,36 +235,29 @@
 }
 
 #footer-text p{
-    font-size: 13px;
+    font-size: 12px;
 }
 #footer-text a{
     text-decoration: none;
     color: #6ECC02;
 }
-
-#footer .rightBox .social-links i{
-    font-size: 24px;
-    color: white;
-}
 .social-links a i{
-    transition: all 0.5s ease;
+    font-size: 20px;
+    color: white;
+    transition: 0.4s ease;
 }
 .social-links a i:hover{
-    transform: scale(1.2);
+    /* color: #6ECC02; */
+    transform: scale(1.05);
 }
-#footer .rightBox form input{
-    width: 175px;
+.rightBox form input{
     border-radius: 10px;
     padding: 6px;
     font-size: 13px;
 }
-#footer .rightBox form .btn{
+.rightBox .btn{
     height: 35px;
     background: white;
     border-radius: 10px;
     margin-left: 5px;
-}
-h5{
-    font-weight: 600;
-    letter-spacing: 1px;
 }
