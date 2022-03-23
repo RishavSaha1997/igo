@@ -3,6 +3,9 @@
         width: 25%;
         left: 38%;;
     }
+    .navbar{
+        background: white;
+    }
     .navbar .btn {
         display: none;
     }
@@ -131,7 +134,10 @@
     #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
         margin-top: 0px;
     }
-    #footer .leftBox, .centerBox1, .centerBox2 p{
+    .centerBox1, .centerBox2{
+        margin-top: 12px;
+    }
+    #footer .centerBox1, .centerBox2 p{
         font-size: 12px;
     }
     #footer .leftBox{
@@ -139,7 +145,7 @@
     }
     #footer .leftBox img {
         height: 35px;
-        margin-left: 0px;
+        margin-left: 37px;
     }
     #footer .centerBox1 {
         padding-left: 10px;
@@ -148,7 +154,7 @@
         text-align: center;
     }
     #footer .rightBox form input{
-        width: 200px;
+        width: 250px;
     }
 }
 

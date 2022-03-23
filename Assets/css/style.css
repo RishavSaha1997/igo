@@ -70,14 +70,14 @@
 .button .download{
     border-radius: 30px;
     padding: 10px 20px;
-    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: #6ECC02;
     color: white;
 }
 .button .sign-up{
     border-radius: 30px;
     padding: 10px 15px;
-    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: black;
     color: white;
     margin-left: 10px
@@ -111,7 +111,7 @@
     margin-top: 15px;
     border-radius: 30px;
     padding: 10px 20px;
-    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%);
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: #6ECC02;
     color: white;
 }
@@ -220,8 +220,11 @@
 #footer .leftBox, .centerBox1, .centerBox2, .rightBox{
     margin-top: 35px;
 }
-#footer .leftBox, .centerBox1, .centerBox2 p{
+#footer .centerBox1, .centerBox2 p{
     font-size: 14px;
+}
+.leftBox p{
+    font-size: 12px;
 }
 #footer .centerBox1{
     padding-left: 75px;
