@@ -159,6 +159,13 @@
     #footer .rightBox form input{
         width: 250px;
     }
+    #contact form{ 
+        margin: 0 auto; 
+        width: 370px;
+    }
+    #contact .submit{
+        background: #6ECC02;
+    }
 }
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
