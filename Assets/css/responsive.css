@@ -139,8 +139,11 @@
     .centerBox1{
         margin-top: 12px;
     }
+    .centerBox2{
+        margin-top:12px ;
+    }
     #footer .centerBox1, .centerBox2 p{
-        font-size: 12px;
+        font-size: 13px;
     }
     #footer .leftBox{
         padding-top: 15px;
@@ -150,7 +153,10 @@
         margin-left: 37px;
     }
     #footer .centerBox1 {
-        padding-left: 10px;
+        padding-left: 13px;
+    }
+    #footer .rightBox{
+        padding-left: 13px;
     }
     #footer-text p{
         font-size: 12px;
