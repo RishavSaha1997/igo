@@ -176,7 +176,13 @@
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-    /* #banner .leftBlock {
+    .navbar .btn {
+        display: none;
+    }
+    .navbar{
+        background: white;
+    }
+    #banner .leftBlock {
         margin-top: 0px;
     }
     #banner .rightBlock img {
@@ -184,9 +190,19 @@
         width: 100%;
         margin-left: 30px;
     }
+    .download{
+        margin-left: 10px;
+    }
+    .sign-up{
+        margin-top: 15px;
+    }
+    #aboutUs {
+        margin-top: 60px;
+    }
     #aboutUs img {
         height: auto;
         width: 100%;
+        margin-left: -10px;
     }
     #aboutUs .rightBlock {
         margin-top: 0px;
@@ -213,6 +229,9 @@
         width: 100%;
         margin-left: -11px;
     }
+    #download{
+        margin-top: 75px;
+    }
     #download .rightBlock {
         margin-top: 0px;
     }
@@ -220,5 +239,18 @@
         padding-left: 0px;
         line-height: normal;
         font-size: 32px;
-    } */
+        margin-top: 40px;
+    }
+    #download .rightBlock img {
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 150px;
+    }
+    #contact {
+        margin-top: 70px;
+    }
+    .social-links a i {
+        font-size: 18px;
+    }
+
 }
