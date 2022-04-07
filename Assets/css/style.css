@@ -89,6 +89,9 @@
 /* End Banner Section */
 
 /* About Us */
+#aboutUs{
+    padding-top: 100px;
+}
 #aboutUs img{
     height: 100vh ;
     width: 90%;
@@ -262,7 +265,7 @@
     margin-left: 5px;
 }
 #contact{
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
     justify-content: center;
 }
