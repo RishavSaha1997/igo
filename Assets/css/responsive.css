@@ -119,6 +119,7 @@
         /* margin-top: 75px; */
         height: 42vh;
         width: 100%;
+        margin-top: 20px;
         margin-left: -12px;
     }
     #download .rightBlock {
