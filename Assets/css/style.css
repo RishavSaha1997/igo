@@ -362,6 +362,9 @@
     text-align: center;
     margin-bottom: 50px;
 }
+#career-work p{
+    margin-top: 15px;
+}
 #career-work .imgBlock{
     text-align: center;
 }
