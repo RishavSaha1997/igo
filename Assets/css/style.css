@@ -232,6 +232,11 @@
 #footer .centerBox1{
     padding-left: 75px;
 }
+#footer .centerBox1 a,
+#footer .centerBox2 a{
+    text-decoration: none;
+    color: white;
+}
 #footer .leftBox img{
     height: 35px;
     margin-left: 35px;
@@ -245,13 +250,13 @@
     color: #6ECC02;
 }
 .social-links a i{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
-    transition: 0.4s ease;
+    transition: all 0.4s ease-in-out;
 }
 .social-links a i:hover{
     /* color: #6ECC02; */
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .rightBox form input{
     border-radius: 10px;
