@@ -180,7 +180,7 @@
     }
 
     #career .leftBlock h1 {
-        padding-top: 10px;
+        padding-top: 35px;
     }
     #career .rightBlock img {
         width: 100%;
@@ -192,7 +192,8 @@
     }
     #career-life .leftBlock img {
         margin-top: 25px;
-        height: 300px;
+        width: 100%;
+        height: auto;
     }
 
     #career-work .leftBlock img,
