@@ -314,6 +314,8 @@
 }
 #career .leftBlock h1{
     padding-top: 65px;
+    font-size: 36px;
+    font-weight: 600;
 }
 #career .leftBlock p{
     margin-top: 25px;
@@ -378,6 +380,7 @@
 #position a{
     color: black;
     font-weight: 500;
+    font-size: 18px;
     /* text-decoration: none; */
 }
 
