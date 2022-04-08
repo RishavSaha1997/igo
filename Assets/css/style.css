@@ -252,7 +252,7 @@
 .social-links a i{
     font-size: 22px;
     color: white;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s;
 }
 .social-links a i:hover{
     /* color: #6ECC02; */
@@ -302,4 +302,107 @@
 }
 #message{
     resize: none;
+}
+
+#career{
+    margin-top: 100px;
+}
+#career #text a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c0b09;
+}
+#career .leftBlock h1{
+    padding-top: 65px;
+}
+#career .leftBlock p{
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#career .rightBlock img{
+    width: 100%;
+    height: 450px;
+}
+#career-life{
+    margin-top: 75px;
+}
+#career-life .leftBlock img{
+    height: 380px;
+}
+#career-life .rightBlock h2{
+    margin-top: 50px;
+    font-weight: 600;
+}
+#career-life .rightBlock p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#career-life .opening-btn{
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
+    background: black;
+    color: white;
+}
+#career-life a{
+    color: white;
+    text-decoration: none;
+}
+
+#career-work{
+    margin-top: 100px;
+}
+#career-work .leftBlock,
+ #career-work .centerBlock,
+  #career-work .rightBlock{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#career-work .imgBlock{
+    text-align: center;
+}
+#career-work .imgBlock img{
+    height: 250px;
+}
+
+#testimonial{
+    margin-top: 75px;
+}
+
+
+#position{
+    margin-top: 100px;
+}
+#position a{
+    color: black;
+    /* text-decoration: none; */
+}
+
+
+#jobs{
+    margin-top: 115px;
+}
+#jobs #text a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #0c0b09;
+}
+#jobs .card{
+    margin-top: 25px;
+    box-shadow: 4px 4px 8px 2px rgb(0,0,0,0.2);
+}
+#jobs .card-body h2{
+    color: black;
+}
+#jobs .card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#jobs .card-body h6{
+    font-weight: 700;
+}
+#jobs #text{
+    font-size: 18px;
 }

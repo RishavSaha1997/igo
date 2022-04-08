@@ -178,6 +178,32 @@
     #contact .submit{
         background: #6ECC02;
     }
+
+    #career .leftBlock h1 {
+        padding-top: 10px;
+    }
+    #career .rightBlock img {
+        width: 100%;
+        height: unset;
+    }
+
+    #career-life .rightBlock h2 {
+        font-size: 32px;
+    }
+    #career-life .leftBlock img {
+        margin-top: 25px;
+        height: 315px;
+    }
+
+    #career-work .leftBlock img,
+    #career-work .centerBlock img,
+    #career-work .rightBlock img{
+        height: 100px;
+    }
+
+    #position .position{
+        text-align: center;
+    }
 }
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
