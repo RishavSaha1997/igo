@@ -210,8 +210,14 @@
     #testimonial i {
         left: 83%;
     }
+    .card{
+        margin-bottom: 17px;
+    }
     .inner-card {
         padding-left: 16px;
+    }
+    .inner-card p {
+        font-size: 14px;
     }
 }
 
