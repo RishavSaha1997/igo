@@ -333,7 +333,7 @@
     height: 380px;
 }
 #career-life .rightBlock h2{
-    margin-top: 50px;
+    margin-top: 35px;
     font-weight: 600;
 }
 #career-life .rightBlock p{
@@ -375,6 +375,57 @@
 #testimonial{
     margin-top: 75px;
 }
+#testimonial .card{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 20%);
+}
+#testimonial i{
+    font-size: 50px;
+    position: absolute;
+    left: 88%;
+    color: yellow;
+    font-style: italic;
+}
+.inner-card{
+    padding-left: 25px;
+}
+.inner-card p{
+    padding-top: 35px;
+}
+.inner-body h6{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.desc-text{
+    font-size: 16px;
+    padding-right: 50px;
+    font-style: italic;
+}
+.inner-body img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.inner-body h6{
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.inner-body h6 span{
+    font-size: 13px;
+    font-weight: 400;
+}
+/* .inner-body{
+    text-align: right;
+} */
+/* .inner-body p{
+    padding-top: 15px;
+    padding-left: 170px;
+} */
+/* .inner-body img{
+    padding-left: 15px;
+} */
 
 
 #position{
