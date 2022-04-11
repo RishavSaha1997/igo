@@ -235,6 +235,11 @@
     {
         bottom: -70px;
     }
+    .slick-prev:before,
+    .slick-next:before
+    {
+        color: rgba(6, 94, 60, 0.801);
+    }
 }
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
