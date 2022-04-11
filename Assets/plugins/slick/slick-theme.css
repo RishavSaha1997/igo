@@ -71,8 +71,8 @@
     line-height: 1;
 
     opacity: .75;
-    /* color: rgb(192, 192, 192); */
-    color: #198754;
+    color: rgba(192, 192, 192, 0.692);
+    /* color: #71c9a07a; */
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
