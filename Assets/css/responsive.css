@@ -219,6 +219,22 @@
     .inner-card p {
         font-size: 14px;
     }
+
+    /* SLiCK */
+    .slick-prev
+    {
+        top: 112%;
+        left: 44%;
+    }
+    .slick-next
+    {
+        top: 112%;
+        right: 44%;
+    }
+    .slick-dots
+    {
+        bottom: -70px;
+    }
 }
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
