@@ -173,7 +173,7 @@
     } */
     #contact form{ 
         margin: 0 auto; 
-        width: 370px;
+        width: auto;
     }
     #contact .submit{
         background: #6ECC02;
