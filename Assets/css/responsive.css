@@ -207,6 +207,9 @@
         text-align: center;
     }
 
+    #testimonial {
+        margin-top: 130px;
+    }
     #testimonial i {
         left: 80%;
     }
