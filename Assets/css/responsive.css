@@ -197,6 +197,9 @@
         height: auto;
     }
 
+    #career-life .opening-btn {
+        margin-bottom: 15px;
+    }
     #career-work .leftBlock img,
     #career-work .centerBlock img,
     #career-work .rightBlock img{
