@@ -250,7 +250,7 @@
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-    .navbar .btn {
+    /* .navbar .btn {
         display: none;
     }
     .navbar{
@@ -319,7 +319,7 @@
         padding-left: 0px;
         padding-top: 20px;
         width: 150px;
-    }
+    } */
     #contact {
         margin-top: 10px;
     }
