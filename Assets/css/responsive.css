@@ -250,7 +250,7 @@
 
 /*`lg` applies to medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {
-    /* .navbar .btn {
+    .navbar .btn {
         display: none;
     }
     .navbar{
@@ -262,13 +262,10 @@
     #banner .rightBlock img {
         height: auto;
         width: 100%;
-        margin-left: 30px;
-    }
-    .download{
         margin-left: 10px;
     }
-    .sign-up{
-        margin-top: 15px;
+    .button .sign-up {
+        margin-left: 5px;
     }
     #aboutUs {
         margin-top: 60px;
@@ -293,9 +290,9 @@
     #business .rightBlock img {
         height: auto;
         width: 100%;
-        margin-left: 30px;
+        margin-left: 10px;
     }
-    #download{
+     #download{
         margin-top: 15px;
     }
     #download .leftBlock img {
@@ -313,13 +310,13 @@
         padding-left: 0px;
         line-height: normal;
         font-size: 32px;
-        margin-top: 40px;
+        margin-top: 75px;
     }
     #download .rightBlock img {
         padding-left: 0px;
         padding-top: 20px;
         width: 150px;
-    } */
+    }
     #contact {
         margin-top: 10px;
     }
