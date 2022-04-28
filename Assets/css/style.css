@@ -72,15 +72,17 @@
     padding: 10px 20px;
     box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: #6ECC02;
-    color: white;
 }
 .button .sign-up{
     border-radius: 30px;
     padding: 10px 15px;
     box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: black;
-    color: white;
     margin-left: 10px
+}
+.button a{
+    color: white;
+    text-decoration: none;
 }
 #banner .rightBlock img{
     height: 80vh;
@@ -116,7 +118,10 @@
     padding: 10px 20px;
     box-shadow: 1px 2px 6px rgb(0 0 0 / 60%);
     background: #6ECC02;
+}
+#aboutUs .more a{
     color: white;
+    text-decoration: none;
 }
 
 /* End About Us Section */
