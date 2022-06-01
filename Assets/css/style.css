@@ -11,11 +11,17 @@
 .navbar .navbar-collapse .navbar-nav .nav-item{
     margin: 0 10px;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+#navbarNav .navbar-nav .nav-item .nav-link{
     color: black;
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
+}
+#navbarNav .navbar-nav .nav-item .active{
+    border-bottom: 3px solid black;
+}
+#navbarNav .navbar-nav .nav-item :hover{
+    border-bottom: 3px solid black;
 }
 .navbar-toggler:focus {
     box-shadow: none;
@@ -33,10 +39,10 @@
     border-radius: 30px;
     padding: 6px 30px;
 }
-#navbarNav ul li {
+/* #navbarNav ul li {
     font-size:16px;
     font-weight: 500;
-}
+} */
 .separator{
     position: absolute;
     background: #6ECC02;
